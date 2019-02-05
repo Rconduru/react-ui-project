@@ -5,7 +5,6 @@ Object.defineProperty(exports, '__esModule', { value: true });
 function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
 var React = _interopDefault(require('react'));
-var PropTypes = _interopDefault(require('react-proptypes'));
 
 function styleInject(css, ref) {
   if ( ref === void 0 ) ref = {};
@@ -44,10 +43,6 @@ var AlertComponent = function AlertComponent(_ref) {
   return React.createElement("div", {
     className: styles.Alert
   }, React.createElement("span", null, message));
-};
-
-StatelessComponent.propTypes = {
-  message: PropTypes.string
 };
 
 exports.Alert = AlertComponent;
