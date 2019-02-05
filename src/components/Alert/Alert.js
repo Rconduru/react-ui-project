@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'react-proptypes';
 import styles from './Alert.css';
 
 const AlertComponent = ({ message = 'this is an alert' }) => (
@@ -7,7 +6,5 @@ const AlertComponent = ({ message = 'this is an alert' }) => (
     <span>{message}</span>
   </div>
 );
-StatelessComponent.propTypes = {
-  message: PropTypes.string,
-};
+
 export default AlertComponent;
