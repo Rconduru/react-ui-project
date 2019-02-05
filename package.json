@@ -2,7 +2,7 @@
   "name": "react-ui-project",
   "version": "1.0.0",
   "description": "Example test with exporting react components",
-  "main": "dist/index.js",
+  "main": "dist/bundle.js",
   "files": [
     "dist"
   ],
